@@ -1,0 +1,308 @@
+body,
+html {
+    padding: 0;
+    margin: 0;
+}
+
+header {
+    background-image: url("./images/header-image.png");
+    background-size: cover;
+    height: 1440px;
+
+}
+
+.nav-container {
+    overflow: hidden;
+    width: 70%;
+    margin: 0 auto;
+    padding-top: 30px;
+}
+
+.logo-container {
+    float: left;
+    margin-left: 30px;
+}
+
+.menu-container {
+    float: right;
+}
+
+.menu-container>ul {
+    list-style-type: none;
+}
+
+.menu-container>ul>li {
+    width: 100px;
+    display: inline-block;
+}
+
+.menu-container>ul>li>a {
+    text-decoration: none;
+    color: #fff;
+}
+
+.school-container>h1 {
+    text-align: center;
+    font-size: 130px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: #fff;
+    margin-top: 300px;
+
+}
+
+.school-container>ul {
+    color: white;
+    list-style-type: none;
+    width: 40%;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.school-container>ul>li {
+    margin-right: 60px;
+    font-size: 20px;
+    text-align: center;
+    display: inline-block;
+}
+
+.school-container>button {
+    width: 208px;
+    height: 54px;
+    border-radius: 22px;
+    background-color: #C271FF;
+    color: white;
+    border-style: none;
+    font-size: 100%;
+    display: block;
+    margin: 40px auto;
+}
+
+.learn-container>h2 {
+    text-align: center;
+    color: white;
+    margin-top: 210px;
+    font-size: 40px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.learn-container>h2>span {
+    color: #C271FF;
+}
+
+.parent {
+    width: 80%;
+    overflow: hidden;
+    margin: 0 auto;
+}
+
+.children {
+    width: 25%;
+    float: left;
+    color: #fff
+}
+
+.children>img {
+    width: 50%;
+    border-radius: 50%;
+    display: block;
+    margin: 0 auto;
+}
+
+.children>h3,
+.children>p {
+    text-align: center;
+}
+
+.testimonial {
+
+    background-color: #C271FF;
+    height: 450px;
+}
+
+.testimonial-container {
+    width: 60%;
+    margin: 0 auto;
+    padding: 105px;
+}
+
+.testimonial-container>img {
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    float: left;
+}
+
+.testimonial-quotes {
+    width: 70%;
+    margin: 30px 40px;
+    color: white;
+    float: left;
+
+}
+
+.testimonial-quotes>p {
+    padding-left: 30px;
+}
+
+.videos {
+    width: 80%;
+    margin: 0 auto;
+}
+
+.videos>h1 {
+    text-align: center;
+    color: black;
+    display: block;
+    margin: 40px auto;
+}
+
+.videos>h1>span {
+    color: #C271FF;
+}
+
+.video-container {
+    width: 100%;
+    display: block;
+}
+
+.video {
+    width: 20%;
+    display: inline-block;
+    margin: 0 25px;
+
+}
+
+.video>img {
+    width: 250px;
+    height: 170px;
+}
+
+
+.rating-container {
+    width: 100%;
+}
+
+.rating {
+    width: 40%;
+    display: inline-block;
+}
+
+.minutes {
+    width: 30%;
+    display: inline-block;
+}
+
+.author-information>img {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+
+}
+
+.free-membership {
+    background-color: #071629;
+    width: 100%;
+}
+
+.free-membership>h1 {
+    text-align: center;
+    color: white;
+    padding-top: 40px;
+}
+
+.free-membership>h1>span {
+    color: #C271FF;
+}
+
+.membership-container {
+    width: 80%;
+    margin: 0 auto;
+    padding-bottom: 40px;
+}
+
+.membership {
+    width: 24%;
+    display: inline-block;
+    margin: 40px auto;
+    padding-left: 12px;
+}
+
+.membership>h2 {
+    color: white;
+}
+
+.membership>p {
+    width: 51%;
+    color: #fff;
+    text-align: center;
+
+}
+
+.membership-button {
+    background-color: #C271FF;
+    color: white;
+    width: 200px;
+    height: 50px;
+    display: block;
+    border-radius: 20px;
+    margin: 0 auto;
+}
+
+.faq-section {
+    width: 100%;
+    margin-top: 70px;
+}
+
+.faq-section>h1 {
+    text-align: center;
+    font-size: -webkit-xxx-large;
+}
+
+.faq-container {
+    width: 80%;
+    margin: 0 auto;
+}
+
+.faq {
+    width: 30%;
+    display: inline-block;
+    margin: 0 auto;
+    padding-left: 210px;
+}
+
+
+
+.faq>p {
+    color: #07162980;
+    font-size: 20px;
+}
+
+.footer {
+    background-color: #071629;
+    width: 100%;
+    height: 200px;
+    margin-top: 50px;
+}
+
+.footer-container {
+    width: 80%;
+    margin: 0 auto;
+    padding-top: 70px;
+}
+
+.footer-logo {
+    width: 20%;
+    display: inline-block;
+}
+
+.footer-menu {
+    width: 20%;
+    float: right;
+}
+
+.footer-container>p {
+    color: #727272;
+    text-align: center;
+    font-size: 12px;
+    margin-top: 30px;
+}
